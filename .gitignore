@@ -1,1 +1,10 @@
 .DS_Store
+
+# Private local files; never publish.
+/.private/
+
+# Local credentials.
+.env
+.env.*
+*.pem
+client_secret*.json
